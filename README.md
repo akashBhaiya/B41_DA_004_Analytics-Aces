@@ -52,4 +52,13 @@ This project provides an in-depth analysis of the Indian Electric Vehicle (EV) m
 - Matplotlib & Seaborn: Data visualization
 
 - Numpy: Data handling and computation
+## Contributors
+
+- Akash Vishwakarma
+
+- Aditya
+
+- Siva Maruthi
+
+Special thanks to everyone who contributed to this project. ❤️
 
