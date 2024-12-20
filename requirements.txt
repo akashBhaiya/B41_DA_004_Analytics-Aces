@@ -16,3 +16,4 @@ plotly.graph_objects
 plotly.subplots  
 plotly.offline  
 streamlit.components.v1
+pillow
