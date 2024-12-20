@@ -10,7 +10,7 @@ This project provides an in-depth analysis of the Indian Electric Vehicle (EV) m
 - Location Visualization: The app includes an interactive map that shows the locations of EV makers across India, providing insights into the geographic distribution of EV manufacturers.
 ## File Structure
 
-- app.py: Main application file.
+- main.py: Main application file.
 
 - requirements.txt: Python dependencies.
 
