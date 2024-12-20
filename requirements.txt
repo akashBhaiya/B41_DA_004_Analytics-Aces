@@ -1,0 +1,12 @@
+pandas
+matplotlib
+ploty
+seaborn
+streamlit
+numpy
+json
+requests
+altair
+geopandas
+folium
+bsae64
