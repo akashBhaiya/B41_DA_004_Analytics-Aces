@@ -6,7 +6,7 @@ requests
 streamlit_lottie  
 altair  
 geopandas  
-Pillow (PIL)  
+PIL
 base64  
 random  
 folium  
