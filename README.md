@@ -41,4 +41,15 @@ This project provides an in-depth analysis of the Indian Electric Vehicle (EV) m
 ## Additional Features:
 - EV Maker Location: Displays EV maker locations on an interactive map using folium, with markers showing the maker's name, place, and state.
 - State-wise PCS: Provides a bar chart showing the number of operational PCS in different states or a selected state.
+## Technologies
+
+- Python: Programming language
+
+- Streamlit: Dashboard framework
+
+- Pandas: Data manipulation
+
+- Matplotlib & Seaborn: Data visualization
+
+- Numpy: Data handling and computation
 
