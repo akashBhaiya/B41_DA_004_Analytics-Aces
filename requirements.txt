@@ -5,8 +5,7 @@ plotly.express
 requests  
 streamlit_lottie  
 altair  
-geopandas  
-base64  
+geopandas   
 random  
 folium  
 folium.plugins  
