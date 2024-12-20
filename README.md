@@ -15,4 +15,17 @@ This project provides an in-depth analysis of the Indian Electric Vehicle (EV) m
 ## KPIs and Aggregations:
 - Displays total EV companies, states, and sales, along with the top state by EV makers.
 - Uses st.metric() to show important KPIs such as the total number of companies, states, and total sales in the selected filter range.
+## Visualizations:
+
+- Bar Charts: To show the trend of total EV sales by year and the number of EV companies in each state.
+- Pie Charts: Display the distribution of companies across states.
+- Top Manufacturers Growth: A bar chart for the top manufacturers based on their growth rate.
+- EV Sales by Category: Bar chart for sales per vehicle category.
+- Line Chart: Displays the sales history of a selected manufacturer
+## Advanced Features:
+- 3D Vehicle Data Heatmap: Allows users to select a date range and visualize a 3D surface plot for vehicle data over time.
+- Map Visualization: Plots the locations of EV makers on an interactive map, with filters for specific makers and states. This map includes the use of GeoJSON for geographical boundaries, enhancing the visualization of state distributions.
+## Additional Features:
+- EV Maker Location: Displays EV maker locations on an interactive map using folium, with markers showing the maker's name, place, and state.
+- State-wise PCS: Provides a bar chart showing the number of operational PCS in different states or a selected state.
 
