@@ -12,4 +12,7 @@ This project provides an in-depth analysis of the Indian Electric Vehicle (EV) m
    - Data is loaded from multiple CSV files, including EV sales data by maker and category, state-wise EV maker data, and vehicle class registrations.
    - The data is cleaned, and columns are formatted for analysis (e.g., date conversion for sales data).
    - Data aggregation and filtering are done based on user inputs (e.g., selected state or year).
+## KPIs and Aggregations:
+- Displays total EV companies, states, and sales, along with the top state by EV makers.
+- Uses st.metric() to show important KPIs such as the total number of companies, states, and total sales in the selected filter range.
 
