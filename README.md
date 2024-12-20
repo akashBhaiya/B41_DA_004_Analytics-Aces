@@ -8,6 +8,19 @@ This project provides an in-depth analysis of the Indian Electric Vehicle (EV) m
 - Trend Visualization: Visualizes EV sales by year, sales by category, and manufacturer growth over time.
 - Interactive Filtering: Users can filter data by state, year, or specific EV maker to explore the sales history and distribution of manufacturers.
 - Location Visualization: The app includes an interactive map that shows the locations of EV makers across India, providing insights into the geographic distribution of EV manufacturers.
+## File Structure
+
+- app.py: Main application file.
+
+- requirements.txt: Python dependencies.
+
+- style.css: Custom styling for the application.
+
+- data/: Contains CSV files used for analysis.
+
+- Animation - 1734640759652.json: Lottie animation for the "About Us" section.
+
+- Analytics Aces.png: Logo for the application.
 ## Data Loading and Preprocessing:
    - Data is loaded from multiple CSV files, including EV sales data by maker and category, state-wise EV maker data, and vehicle class registrations.
    - The data is cleaned, and columns are formatted for analysis (e.g., date conversion for sales data).
