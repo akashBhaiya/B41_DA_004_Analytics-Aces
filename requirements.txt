@@ -6,7 +6,6 @@ requests
 streamlit_lottie  
 altair  
 geopandas  
-PIL
 base64  
 random  
 folium  
