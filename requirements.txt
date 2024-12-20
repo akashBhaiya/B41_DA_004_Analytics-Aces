@@ -3,3 +3,4 @@ pandas
 numpy  
 plotly      
 st_lottie
+streamlit_lottie
