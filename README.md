@@ -1,64 +1,193 @@
-# Indian EV Market Analysis (2001 - 2024)
+# 🚘 Indian EV Market Analysis (2001 - 2024) 🚘
 
-Overview
+<img src="Ev_animation.gif" alt="Ev Animation" width='200'>
 
-This project provides an in-depth analysis of the Indian Electric Vehicle (EV) market from 2001 to 2024. It highlights sales trends, growth rates, major EV manufacturers, category-wise performance, and infrastructure development.
-## Features
-- Key Performance Indicators (KPIs): Displays important metrics like the number of companies, states, and total EV sales, which can be filtered by year and state.
-- Trend Visualization: Visualizes EV sales by year, sales by category, and manufacturer growth over time.
-- Interactive Filtering: Users can filter data by state, year, or specific EV maker to explore the sales history and distribution of manufacturers.
-- Location Visualization: The app includes an interactive map that shows the locations of EV makers across India, providing insights into the geographic distribution of EV manufacturers.
-## File Structure
+## 🚔 Overview
+This project provides a comprehensive analysis of the Electric Vehicle (EV) market in India, covering the period from 2001 to 2024. The analysis focuses on:
+- Growth trends
+- Government policies
+- Infrastructure developments
+- Key players in the EV industry
+- Vehicle class-wise and manufacturer-specific sales data
+- Consumer preferences and adoption patterns
 
-- main.py: Main application file.
+The interactive web application built with **Streamlit** allows users to explore and visualize the data in an intuitive way.
 
-- requirements.txt: Python dependencies.
+---
 
-- style.css: Custom styling for the application.
+### 🎥 Quick Video Preview
+![Watch Video](https://via.placeholder.com/800x400)
+> [Click here to watch a video demo](https://your-video-link.com)
 
-- data/: Contains CSV files used for analysis.
+---
 
-- Animation - 1734640759652.json: Lottie animation for the "About Us" section.
+## 📌 Key Features
 
-- Analytics Aces.png: Logo for the application.
-## Data Loading and Preprocessing:
-   - Data is loaded from multiple CSV files, including EV sales data by maker and category, state-wise EV maker data, and vehicle class registrations.
-   - The data is cleaned, and columns are formatted for analysis (e.g., date conversion for sales data).
-   - Data aggregation and filtering are done based on user inputs (e.g., selected state or year).
-## KPIs and Aggregations:
-- Displays total EV companies, states, and sales, along with the top state by EV makers.
-- Uses st.metric() to show important KPIs such as the total number of companies, states, and total sales in the selected filter range.
-## Visualizations:
+### **1. Interactive Visualizations**
+- **Total EV Sales Over the Years:** Track how EV sales have grown annually.
+- **State-Wise EV Companies:** View the concentration of EV manufacturers by state using pie charts.
+- **Top EV Manufacturers by Growth and Sales:** Identify key players and their performance trends.
+- **Category-Wise Sales:** Analyze which types of EVs are the most popular.
 
-- Bar Charts: To show the trend of total EV sales by year and the number of EV companies in each state.
-- Pie Charts: Display the distribution of companies across states.
-- Top Manufacturers Growth: A bar chart for the top manufacturers based on their growth rate.
-- EV Sales by Category: Bar chart for sales per vehicle category.
-- Line Chart: Displays the sales history of a selected manufacturer
-## Advanced Features:
-- 3D Vehicle Data Heatmap: Allows users to select a date range and visualize a 3D surface plot for vehicle data over time.
-- Map Visualization: Plots the locations of EV makers on an interactive map, with filters for specific makers and states. This map includes the use of GeoJSON for geographical boundaries, enhancing the visualization of state distributions.
-## Additional Features:
-- EV Maker Location: Displays EV maker locations on an interactive map using folium, with markers showing the maker's name, place, and state.
-- State-wise PCS: Provides a bar chart showing the number of operational PCS in different states or a selected state.
-## Technologies
+### **2. Real-Time Filtering**
+- Filter data by state, year, or specific manufacturers to customize insights.
 
-- Python: Programming language
+### **3. Advanced Visualizations**
+- 3D surface plots for time-series vehicle data.
+- Interactive maps showcasing EV manufacturer locations.
 
-- Streamlit: Dashboard framework
+### **4. Metrics Dashboard**
+- Key Performance Indicators (KPIs) like total sales, top-performing states, and company counts.
 
-- Pandas: Data manipulation
+---
 
-- Matplotlib & Seaborn: Data visualization
+## 🛠 Technology Stack
 
-- Numpy: Data handling and computation
-## Contributors
+### **Languages and Frameworks**
+- **Python**: Core programming language for data analysis and app development.
+- **Streamlit**: Framework for building the interactive web application.
+- **Plotly & Altair**: Libraries for dynamic and visually appealing charts.
+- **Folium**: Mapping library for geographical visualizations.
 
+### **Data Management**
+- **Pandas**: For data manipulation and preprocessing.
+
+### **Additional Tools**
+- **Geopandas**: To handle spatial data for maps.
+- **Lottie Animations**: For engaging app visuals.
+
+---
+
+## 🚀 How to Run the Application
+
+### **Prerequisites**
+1. Install Python 3.8 or above.
+2. Install dependencies using pip:
+    ```bash
+    pip install streamlit pandas numpy plotly folium geopandas streamlit-folium
+    ```
+
+### **Steps to Run**
+1. Clone the repository:
+    ```bash
+    git clone <repository_url>
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd indian-ev-market
+    ```
+3. Launch the Streamlit app:
+    ```bash
+    streamlit run main_demo.py
+    ```
+4. Open your web browser to the displayed local URL.
+
+---
+
+## 📈 Project Architecture
+
+### **1. Data Collection Layer**
+- Raw data is gathered from CSV files and preprocessed for analysis.
+
+### **2. Data Processing Layer**
+- Data cleaning and transformation are performed using Pandas.
+- Aggregation and calculations for KPIs are carried out in Python.
+
+### **3. Visualization and Front-End Layer**
+- Built with Streamlit for dynamic user interaction.
+- Visualized with Plotly and Folium for comprehensive insights.
+
+---
+
+## 📊 Visual Insights
+
+### 1. **Yearly EV Sales**
+![Total Sale](total_sale_bar)
+> *Bar chart showcasing annual EV sales from 2001 to 2024.*
+
+### 2. **State-wise EV Market Analysis**
+![State-wise EV Market](state_wise_pie)
+> *Pie chart revealing state-wise EV company distribution.*
+
+### 3. **Vehicle Class Registration Summary**
+![Category-wise Sales](vechicle_bar)
+> *Horizontal bar chart comparing Vehiale Class Registration.*
+
+### 4. **State-wise Operational PCS Analysis**
+![Operational PCS](pcs_hist)
+> *Histogram chart revealing state-wise EV company distribution.*
+
+---
+
+## Collaboration and Version Control
+
+- **GitHub**: Used for version control and collaborative development.
+- **Branch Workflow**: Feature-specific branches merged after peer review.
+
+---
+
+## ✨ Interactive Elements
+
+### **1. Lottie Animations**
+Engage with animations throughout the app for a better user experience.
+> Example:
+<img src="animation.gif" alt="Demo_Animation" width='200'>
+
+
+### **2. Dashboard Overview**
+> *An interactive dashboard summarizing all key metrics.*
+<img src="Dashboard_Screenshot.png" alt="Dashboard Screenshot" width="700">
+
+
+
+### **3. Heatmap Insights**
+![EV Heatmap](Screenshot.png)
+> *Heatmap visualizing sales and distribution across time.*
+
+---
+
+## 📍 Interactive Map
+Explore EV manufacturer locations and market activities across India through a live interactive map.
+
+### Map Preview
+> *Navigate using zoom and filter options.*
+<img src="Screenshot_india_map.png" alt="Interactive EV Map" width="700">
+
+
+---
+
+## 📋 Authors
 - Akash Vishwakarma
-
 - Aditya
-
 - Siva Maruthi
 
-Special thanks to everyone who contributed to this project. ❤️
+---
+
+## ✉️ Feedback
+We'd love to hear from you! Use the contact form in the app to share your thoughts or suggestions.
+
+---
+
+## 🤝 Acknowledgments
+This project is made possible with:
+- **Datasets**: Publicly available EV market and operational data.
+- **Visualization Libraries**: Streamlit, Plotly, and more.
+
+---
+
+## 📜 License
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
+
+## 🛠 Future Enhancements
+- Integration of real-time EV sales data feeds.
+- Granular insights, including city-wise analysis.
+- Predictive analytics using machine learning for EV trends.
+
+---
+
+**Thank you for exploring the Indian EV Market with us! 🚗⚡❤️**
+
+
 
