@@ -119,7 +119,7 @@ The interactive web application built with **Streamlit** allows users to explore
 
 ---
 
-## Collaboration and Version Control
+## 📝 Collaboration and Version Control
 
 - **GitHub**: Used for version control and collaborative development.
 - **Branch Workflow**: Feature-specific branches merged after peer review.
