@@ -46,7 +46,7 @@ The interactive web application built with **Streamlit** allows users to explore
 ### **Languages and Frameworks**
 - **Python**: Core programming language for data analysis and app development.
 - **Streamlit**: Framework for building the interactive web application.
-- **Plotly & Altair**: Libraries for dynamic and visually appealing charts.
+- **Plotly**: Libraries for dynamic and visually appealing charts.
 - **Folium**: Mapping library for geographical visualizations.
 
 ### **Data Management**
