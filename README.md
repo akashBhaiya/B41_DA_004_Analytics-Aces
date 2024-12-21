@@ -115,7 +115,7 @@ The interactive web application built with **Streamlit** allows users to explore
 
 ### 4. **State-wise Operational PCS Analysis**
 ![Operational PCS](pcs_hist)
-> *Histogram chart revealing state-wise EV company distribution.*
+> *Histogram chart revealing state-wise Operational PCS distribution.*
 
 ---
 
