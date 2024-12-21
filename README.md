@@ -70,15 +70,15 @@ The interactive web application built with **Streamlit** allows users to explore
 ### **Steps to Run**
 1. Clone the repository:
     ```bash
-    git clone <repository_url>
+    git clone 'https://github.com/akashBhaiya/B41_DA_004_Analytics-Aces.git'
     ```
 2. Navigate to the project directory:
     ```bash
-    cd indian-ev-market
+    cd B41_DA_004_Analytics-Aces
     ```
 3. Launch the Streamlit app:
     ```bash
-    streamlit run main_demo.py
+    streamlit run main.py
     ```
 4. Open your web browser to the displayed local URL.
 
@@ -141,8 +141,9 @@ Engage with animations throughout the app for a better user experience.
 
 
 ### **3. Heatmap Insights**
-![EV Heatmap](Screenshot.png)
 > *Heatmap visualizing sales and distribution across time.*
+![EV Heatmap](Screenshot.png)
+
 
 ---
 
