@@ -2,6 +2,13 @@
 
 <img src="Images/Ev_animation.gif" alt="Ev Animation" width='200'>
 
+---
+
+# Domain: India_EV_Market_Analysis
+>[Open Link](https://b41da004analytics-aces-jyocqvphdfyov8fij7xspz.streamlit.app/)
+
+---
+
 ## 🚔 Overview
 This project provides a comprehensive analysis of the Electric Vehicle (EV) market in India, covering the period from 2001 to 2024. The analysis focuses on:
 - Growth trends
@@ -17,7 +24,7 @@ The interactive web application built with **Streamlit** allows users to explore
 
 ### 🎥 Quick Video Preview
 ![Watch Video](Images/group_pic.png)
-> [Click here to watch a video demo](https://your-video-link.com)
+> [Click here to watch a video demo]([https://your-video-link.com](https://youtu.be/cQyyRON5OTw))
 
 ---
 
