@@ -1,4 +1,4 @@
-# Project code : B41_DA_004_Analytics Aces #
+                                         # Project code : B41_DA_004_Analytics Aces #
 # 🚘 Indian EV Market Analysis (2001 - 2024) 🚘
 
 <img src="Images/Ev_animation.gif" alt="Ev Animation" width='200'>
@@ -24,7 +24,6 @@ The interactive web application built with **Streamlit** allows users to explore
 ---
 
 ### 🎥 Quick Video Preview
-![Watch Video](Images/group_pic.png)
 >[Click here to watch a video demo](https://youtu.be/cQyyRON5OTw))
 
 ---
