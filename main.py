@@ -287,12 +287,6 @@ year_df_maker.columns = ['Years', 'Total Sales']
 
 
 cl5, cl6 = st.columns((2))
-# with cl5:
-# # Bar Chart
-#     fig_bar = px.bar(emerging_companies_sorted, x='Total Recent Sales', y='Maker',
-#                  color_continuous_scale='dense', labels={'Maker': 'Company', 'Total Recent Sales': 'Sales'})
-#     fig_bar.update_yaxes(autorange='reversed')
-#     st.plotly_chart(fig_bar, use_container_width=True)
 with cl5:
     fig_bar = px.bar(
         emerging_companies_sorted, 
@@ -356,16 +350,6 @@ vehicle_summary.columns = ['Vehicle Class', 'Total Registration']
 st.markdown("<br>", unsafe_allow_html=True)  # Adds a line break
 st.markdown("<br>", unsafe_allow_html=True)  # Adds a line break
 
-#cl7, cl8 = st.columns((2))
-# with cl7:
-#     # Generate the bar chart for the top 10 vehicle classes
-#     top_5_classes = vehicle_summary.sort_values(by='Total Sales', ascending=False).head(5)
-#     fig_top_5 = px.bar(top_5_classes, x='Total Sales', y='Vehicle Class', orientation='h',
-#                     color_discrete_sequence=['#f4a24b'], title="Top 5 Vehicle Classes by Total Sales")
-#     st.plotly_chart(fig_top_5,use_container_width=True, height = 250)
-
-#with cl8:
-    # Generate the bar chart for all vehicle classes
 st.markdown(
     "<h3 style='color:#FF7F50; text-align:center; text-decoration:underline;'>Vehicle Class Registration Summary</h3>",
     unsafe_allow_html=True
@@ -459,63 +443,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 st.write('----')
-
-
-
-# # Vehicle Data Heatmap
-# st.markdown("<br>", unsafe_allow_html=True)  # Adds a line break
-# st.markdown("<br>", unsafe_allow_html=True)  # Adds a line break
-
-# st.markdown("<h3 style='text-align: center;'>Vehicle Data 3D Heatmap</h3>", unsafe_allow_html=True)
-# st.markdown("<br>", unsafe_allow_html=True)  # Adds a line break
-
-# coll1, coll2 = st.columns((2))
-# # Getting the min and max date 
-# startDate = max(pd.to_datetime("2020-01-01"), df1["Date"].min())
-# endDate = pd.to_datetime(df1["Date"].max())
-
-# # Making StartDate and end date columns
-# with coll1:
-#     date1 = pd.to_datetime(st.date_input("Start Date", startDate))
-
-# with coll2:
-#     date2 = pd.to_datetime(st.date_input("End Date", endDate))
-
-# df1 = df1[(df1['Date'] >= date1) & (df1['Date'] <= date2)].copy()      
-
-# # Preparing data for 3D Heatmap
-# df_melted = df1.melt(id_vars=["Date"], var_name="Vehicle Type", value_name="Count")
-
-# fig = go.Figure()
-
-# # Adding traces for 3D representation
-# for vehicle in df_melted["Vehicle Type"].unique():
-#     vehicle_data = df_melted[df_melted["Vehicle Type"] == vehicle]
-#     fig.add_trace(go.Surface(
-#         z=[vehicle_data["Count"].values],
-#         x=[vehicle_data["Date"].astype(str).values],
-#         y=[vehicle],
-#         colorscale='Viridis',  # Updated colorscale for better contrast
-#         showscale=True
-#     ))
-
-# # Enhancing interactivity and layout
-# fig.update_layout(
-#     title="3D Heatmap of Vehicle Data",
-#     scene=dict(
-#         xaxis=dict(title="Date", backgroundcolor="rgb(200, 200, 230)", gridcolor="white", showbackground=True),
-#         yaxis=dict(title="Vehicle Type", backgroundcolor="rgb(230, 200, 230)", gridcolor="white", showbackground=True),
-#         zaxis=dict(title="Count", backgroundcolor="rgb(230, 230, 200)", gridcolor="white", showbackground=True),
-#     ),
-#     template="plotly_dark",
-#     margin=dict(l=20, r=20, b=20, t=100),
-#     width=1200,  # Set graph width
-#     height=800   # Set graph height
-# )
-
-# st.plotly_chart(fig)
-
-
 
 
 
@@ -633,11 +560,7 @@ def main():
     # Filter data based on selections
     if selected_maker:
         data = data[data['EV Maker'].isin(selected_maker)]
-    # if selected_place:
-    #     data = data[data['Place'].isin(selected_place)]
-    # if selected_state:
-    #     data = data[data['State'].isin(selected_state)]
-
+  
     # Create a Folium map centered around India
     india_map = folium.Map(location=[23.0, 82.0], zoom_start=4, tiles="CartoDB Positron")
 
