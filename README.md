@@ -142,7 +142,7 @@ Engage with animations throughout the app for a better user experience.
 
 ### **3. Heatmap Insights**
 > *Heatmap visualizing sales and distribution across time.*
-![EV Heatmap](Images/heatmap_vehicle.png)
+<img src="Images/heatmap_vehicle.png" alt="EV Heatmap" width="700">
 
 
 ---
