@@ -5,7 +5,7 @@
 ---
 
 # 🚀 Domain: India_EV_Market_Analysis
->🚘[Open Link](https://b41da004analytics-aces-jyocqvphdfyov8fij7xspz.streamlit.app/)
+>🚘[Open Website Link](https://b41da004analytics-aces-jyocqvphdfyov8fij7xspz.streamlit.app/)
 
 ---
 
