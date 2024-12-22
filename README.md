@@ -183,10 +183,7 @@ This project is made possible with:
 
 ---
 
-## 📜 License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
 
----
 
 ## 🛠 Future Enhancements
 - Integration of real-time EV sales data feeds.
