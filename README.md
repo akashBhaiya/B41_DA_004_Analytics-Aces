@@ -1,6 +1,6 @@
 # 🚘 Indian EV Market Analysis (2001 - 2024) 🚘
 
-<img src="Ev_animation.gif" alt="Ev Animation" width='200'>
+<img src="Image/Ev_animation.gif" alt="Ev Animation" width='200'>
 
 ## 🚔 Overview
 This project provides a comprehensive analysis of the Electric Vehicle (EV) market in India, covering the period from 2001 to 2024. The analysis focuses on:
@@ -16,7 +16,7 @@ The interactive web application built with **Streamlit** allows users to explore
 ---
 
 ### 🎥 Quick Video Preview
-![Watch Video](https://via.placeholder.com/800x400)
+![Watch Video](Image/group_pic.png)
 > [Click here to watch a video demo](https://your-video-link.com)
 
 ---
@@ -102,19 +102,19 @@ The interactive web application built with **Streamlit** allows users to explore
 ## 📊 Visual Insights
 
 ### 1. **Yearly EV Sales**
-![Total Sale](total_sale_bar)
+![Total Sale](Image/total_sale_bar.png)
 > *Bar chart showcasing annual EV sales from 2001 to 2024.*
 
 ### 2. **State-wise EV Market Analysis**
-![State-wise EV Market](state_wise_pie)
+![State-wise EV Market](Image/state_wise_pie.png)
 > *Pie chart revealing state-wise EV company distribution.*
 
 ### 3. **Vehicle Class Registration Summary**
-![Category-wise Sales](vechicle_bar)
+![Category-wise Sales](Image/vechicle_bar.png)
 > *Horizontal bar chart comparing Vehiale Class Registration.*
 
 ### 4. **State-wise Operational PCS Analysis**
-![Operational PCS](pcs_hist)
+![Operational PCS](Image/pcs_hist.png)
 > *Histogram chart revealing state-wise Operational PCS distribution.*
 
 ---
@@ -131,18 +131,18 @@ The interactive web application built with **Streamlit** allows users to explore
 ### **1. Lottie Animations**
 Engage with animations throughout the app for a better user experience.
 > Example:
-<img src="animation.gif" alt="Demo_Animation" width='200'>
+<img src="Image/animation.gif" alt="Demo_Animation" width='200'>
 
 
 ### **2. Dashboard Overview**
 > *An interactive dashboard summarizing all key metrics.*
-<img src="Dashboard_Screenshot.png" alt="Dashboard Screenshot" width="700">
+<img src="Image/Dark_dashboard.png" alt="Dashboard Screenshot" width="700">
 
 
 
 ### **3. Heatmap Insights**
 > *Heatmap visualizing sales and distribution across time.*
-![EV Heatmap](Screenshot.png)
+![EV Heatmap](Image/heatmap_vehicle.png)
 
 
 ---
@@ -152,7 +152,7 @@ Explore EV manufacturer locations and market activities across India through a l
 
 ### Map Preview
 > *Navigate using zoom and filter options.*
-<img src="Screenshot_india_map.png" alt="Interactive EV Map" width="700">
+<img src="Image/map_ev_maker.png" alt="Interactive EV Map" width="700">
 
 
 ---
