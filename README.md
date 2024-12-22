@@ -24,7 +24,7 @@ The interactive web application built with **Streamlit** allows users to explore
 
 ### 🎥 Quick Video Preview
 ![Watch Video](Images/group_pic.png)
-> [Click here to watch a video demo]([https://your-video-link.com](https://youtu.be/cQyyRON5OTw))
+>[Click here to watch a video demo](https://youtu.be/cQyyRON5OTw))
 
 ---
 
