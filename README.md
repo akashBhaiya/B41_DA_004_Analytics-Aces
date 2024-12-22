@@ -110,7 +110,7 @@ The interactive web application built with **Streamlit** allows users to explore
 > *Pie chart revealing state-wise EV company distribution.*
 
 ### 3. **Vehicle Class Registration Summary**
-![Category-wise Sales](Images/vechicle_bar.png)
+![Category-wise Sales](Images/vehicle_bar.png)
 > *Horizontal bar chart comparing Vehiale Class Registration.*
 
 ### 4. **State-wise Operational PCS Analysis**
@@ -152,7 +152,7 @@ Explore EV manufacturer locations and market activities across India through a l
 
 ### Map Preview
 > *Navigate using zoom and filter options.*
-<img src="Images/map_ev_maker.png" alt="Interactive EV Map" width="700">
+<img src="Images/map_ev_maker.jpg" alt="Interactive EV Map" width="700">
 
 
 ---
