@@ -3,13 +3,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
-#import requests
 from streamlit_lottie import st_lottie
-#import altair as alt
 import geopandas as gpd
-#from PIL import Image
-#import base64
-#from random import randrange
 import folium
 from folium.plugins import MarkerCluster
 from streamlit_folium import st_folium
@@ -17,7 +12,7 @@ import json
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from plotly import offline
-#from streamlit.components.v1 import html
+
 
 
 
@@ -560,8 +555,7 @@ def main():
         # horizontal layout for the logo and header
         st.markdown("<h4 style='margin: 0;'>Filter Options</h4>", unsafe_allow_html=True)
         selected_maker = st.multiselect("Select EV Maker", options=data['EV Maker'].unique())
-        #selected_place = st.multiselect("Select Place", options=data['Place'].unique())
-        #selected_state = st.multiselect("Select State", options=data['State'].unique())
+       
 
     # Filter data based on selections
     if selected_maker:
