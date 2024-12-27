@@ -4,3 +4,4 @@ numpy
 plotly      
 streamlit_lottie
 streamlit_folium
+geopandas
