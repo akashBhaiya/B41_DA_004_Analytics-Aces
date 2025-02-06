@@ -417,20 +417,18 @@ fig = go.Figure(data=[go.Surface(
 
 # Updating layout for 3D plot
 fig.update_layout(
-    title="Vehicle Data 3D Surface Plot",
+    title={"text": "Vehicle Data 3D Surface Plot", "font": {"size": 16}},  # Correct title format
     template="plotly_dark",
     scene=dict(
-        xaxis_title="Date",
-        yaxis_title="Vehicle Type",
-        zaxis_title="Count",
-        xaxis=dict(titlefont=dict(size=12)),  # Font size for x-axis
-        yaxis=dict(titlefont=dict(size=12)),  # Font size for y-axis
-        zaxis=dict(titlefont=dict(size=12)),  # Font size for z-axis
+        xaxis=dict(title="Date", title_font=dict(size=12), tickfont=dict(size=10)),  # Correct font properties
+        yaxis=dict(title="Vehicle Type", title_font=dict(size=12), tickfont=dict(size=10)),
+        zaxis=dict(title="Count", title_font=dict(size=12), tickfont=dict(size=10)),
     ),
-    height=700,  # Adjust the height of the graph
-    width=1500,  # Adjust the width of the graph
-    margin=dict(l=50, r=50, t=100, b=50)  # Adjust margins for better label spacing
+    height=700,  # Adjust height
+    width=1500,  # Adjust width
+    margin=dict(l=50, r=50, t=100, b=50)  # Adjust margins
 )
+
 
 # Show the plot using Streamlit
 st.plotly_chart(fig)
